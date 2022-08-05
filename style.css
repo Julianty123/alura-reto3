@@ -191,6 +191,17 @@ input.formcontato__input:focus, textarea.formcontato__textarea:focus{ /* Estilo 
     outline: 2px solid var(--color-background);     
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: var(--color-background);
+    opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--color-background);
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--color-background);
+}
+
 /*section.title{}*/
 
 /*Sección About*/
